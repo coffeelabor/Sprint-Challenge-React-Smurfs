@@ -28,11 +28,11 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain the differences between `client-side routing` and `server-side routing`.
+- [x] Explain the differences between `client-side routing` and `server-side routing`.
 
       Server-side routing is where pages are stored on an external server.  Each time a new page is requested by the user, a GET request is sent to the server for the data and new page is loaded.  This causes a refresh  and the old page is discarded completely.  Server-side routing is also preferable for SEO.  Client-side routing is when javascript handles all the routing within the page.  A new page is rendered when a user requests one, but a request is never sent to the server.  The page will not refresh.  Client-side is not optimal for SEO and there are parts of the website that might be loaded that never get used.
 
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
 
       GET: A GET request is sent to a server to point to the where the data will be coming from or what it will be "read"-ing.
 
@@ -42,7 +42,7 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
       DELETE:  removes or "deletes" data from the server
 
-- [ ] Mention three tools we can use to make AJAX requests.
+- [x] Mention three tools we can use to make AJAX requests.
 
       Axios: is promised based and for the client
 
@@ -82,7 +82,7 @@ The MVP of this project will be broken up between 2 stages. Follow each step and
 
 Construct your Components to build a Single Page Application. Keep your components separate and design them as if they are pages before adding in your Router.
 
-- [ ] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
+- [x] Construct an AXIOS request to retrieve an array all the Smurfs in the Smurf DB simply write a `GET` to the endpoint `/smurfs`.
 - [ ] Display those smurfs in a list on the screen.
 - [ ] Construct an AXIOS request to `POST` to add a Smurf to the Smurf DB you'll need all three fields.
 - [ ] Create a form that will allow users to add Smurfs to the Smurf DB.
